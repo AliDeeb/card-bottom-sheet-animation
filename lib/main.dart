@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'home_screen.dart';
+import 'test_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Card Bottom Sheet Animation',
       theme: ThemeData(useMaterial3: true),
-      home: const HomeScreen(title: 'Card Bottom Sheet Animation'),
+      home: const TestScreen(),
     );
   }
 }
